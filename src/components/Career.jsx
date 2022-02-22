@@ -3,7 +3,6 @@ import "App" from '../App.css';
 export default function (){
 
     return(
-
 								<div id="Career" class="tabContent">
 												<h3>Career</h3>
 																<p class="myTraining">My training in full-stack software engineering with General Assembly's immersive program has given me familiarity with a range of coding and software development technologies.<br>
@@ -19,7 +18,6 @@ export default function (){
 												<p>
 												<a href="mailto: ian.cannon@protonmail.com">Resume</a>&nbsp;available upon request,	or visit my <a href="https://www.linkedin.com/in/theiancannon/">LinkedIn</a> page for further details.</p>
 								</div>    
-
     )
 
 }

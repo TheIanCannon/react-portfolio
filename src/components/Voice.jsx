@@ -39,7 +39,6 @@ export default function Voice(){
 				}
 
 				return(
-
 								<div id="Voice" class="tabContent">
 												<h3>Voice</h3>
 												<p>Some years ago, at the suggestions of colleagues, I studied a few courses with <a href="http://www.voiceone.com">Voice One</a> and lent my vocal training and talents to a series of marketing promos for several of Weldon Owen's books.</p>
@@ -56,7 +55,6 @@ export default function Voice(){
 																</video>
 												</span>   
 								</div>
-
 				)
 
 }

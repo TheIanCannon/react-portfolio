@@ -3,7 +3,6 @@ import "App" from '../App.css';
 export default function (){
 
     return(
-
 								<div id="Status" class="tabContent">
 												<h3>Status</h3>
 												<ul class="buildPriorities">Current Portfolio Build Priorities:
@@ -23,7 +22,6 @@ export default function (){
 												</ul>
 												<small>(n.b. This page will be under construction and revision as I continue to refine its design. Watch for more changes along the way!)</small>
 								</div>    
-
     )
 
 }

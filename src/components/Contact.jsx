@@ -3,7 +3,6 @@ import "App" from '../App.css';
 export default function (){
 
     return(
-
         <div id="Contact" class="tabContent">
             <h3>Contact</h3>
 	           <p>Questions?</p>
@@ -15,8 +14,7 @@ export default function (){
 																				Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> (The) Ian Cannon. All Rights Reserved.
 																</h6>
             </footer>
-  </div>
-
+        </div>
     )
 
 }

@@ -67,7 +67,6 @@ export default function (){
 				}
 
     return(
-
 								<div id="Coding" class="tabContent">
 												<h3>Coding</h3>
 												<p>Here are a sampling of the various types of projects I have developed, ranging from purely front-end to full MERN-stack.</p>
@@ -85,7 +84,6 @@ export default function (){
 																</div>
 												</div>
 								</div>    
-
     )
 
 }
