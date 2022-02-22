@@ -1,38 +1,161 @@
-.App {
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background: black !important;
+  color: silver !important;
+}
+
+.tabs {
+  float: left;
+  width: 7.5%;
+  position: fixed;
+}
+
+.tabs button {  
+  width: 100%;
+  height: 14.285714vh;
+  display: block;
+  padding: 2.5%;
+  font-size: 100%;
+  border: none;
+  outline: none;
   text-align: center;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tabs button:hover {
+  background: silver;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs button.active {
+  background: black;
+  color: silver;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tabContent {
+		position: absolute;
+		float: right;
+  top: 2.5%;
+		width: 90%;
+		left: 9%;
+}
+
+.buildPriorities, .otherObjectives {
+  list-style-type: none;
+}
+
+#pImg, #pDetail, #buttons-title, #pTitle, #vidTitle, #vidPlay{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#pDetail{
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#pTitle, #vidTitle {
+  margin-bottom: 2.5%;
+  width: 250px;  
+}
+
+.arrow{
+  scale: 150%;
+  border: none;
+  color: silver;
+  background: none;
+}
+
+#vidTitle{
+  color: silver;
+}
+
+#GitHub{
+  margin-left: 1.25%;
+  margin-right: 1.25%;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 0.1%;
+  left: 10%;
+  right: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs {
+    font-size: 80%;
+    width: 15%;
+    float: left;
   }
-  to {
-    transform: rotate(360deg);
+  .tabContent {
+    width: 75%;
+    margin-left: 7.55%;
+    float: left;
+    position: absolute;
+  }
+  #copyright{
+    font-size: 85%;
+  }
+  #voArray{
+    height:300px;
+    width:400px;
+		}
+}
+
+@media screen and (max-width: 480px) {
+  .tabs{
+    font-size: 80%;
+    width: 17.5%;
+    float: left;
+    position: fixed;
+  }
+  .tabContent {
+    width: 75%;
+    margin-left: 10%;
+    float: left;
+    position: absolute;
+  }
+  #copyright{
+    font-size: 62.5%;
+  }
+  #Contact{
+    display: block;
+  }
+  .Icon
+  {
+  scale: 75%;
+  }
+  #voArray{
+    height:180px;
+    width:240px;
+		}
+}
+
+@media screen and (max-width: 240px) {
+  .tabs{
+    font-size: 55%;
+    width: 15%;
+    float: left;
+    position: fixed;
+  }
+  .tabContent {
+    margin-right: 0 auto;
+    font-size: 55%;
+    left: 9%;
+    width:80%;
+  }
+  #voArray{
+    height: 135px;
+    width: 180px;
+  }
+  .Icon {
+    height: 25px;
+    width: 25px;
   }
 }
