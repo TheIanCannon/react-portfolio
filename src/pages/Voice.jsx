@@ -8,7 +8,7 @@ import tracheotomy from '../media/av/tracheotomy.mp4';
 import mountain from '../media/av/mountain.mp4';
 import bear from '../media/av/bear.mp4';
 import croc from '../media/av/croc.mp4';
-import tuna from '../media/tuna.mp4';
+import tuna from '../media//av/tuna.mp4';
 
 export default function Voice(){
 
