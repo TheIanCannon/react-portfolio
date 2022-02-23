@@ -1,37 +1,40 @@
-import "App" from '../App.css';
-import "Navbar" from '../components/Navbar.jsx';
-import "media" from '../media';
+import Navbar from '../components/Navbar.jsx';
+import GiveYourAll from '../media/img/GiveYourAll.png';
+import OneArmedBandit from '../media/img/OneArmedBandit.png';
+import Palanthas from '../media/img/Palanthas.png';
+import IntoInfinity from '../media/img/IntoInfinity.png';
+import ShipCollector from '../media/img/ShipCollector.png';
 
 export default function (){
 
 				const projectList = [
 						[
 								"One-Armed Bandit",
-								"media/img/OneArmedBandit.png",
+								"{OneArmedBandit}",
 								"http://theiancannon.github.io/GA-Project1-SlotMachine/",
 								"An HTML/CSS/JS-based slot machine with animated *.gif reels and contextual sound effects"
 						],
 						[
 								"Palanthas",
-								"media/img/Palanthas.png",
+								"{Palanthas}",
 								"http://project-palanthas.herokuapp.com/",
 								"Developed in MongoDB/Express/Node for collecting, reviewing, and rating books"
 						],
 						[
 								"Ship Collector",
-								"media/img/ShipCollector.png",
+								"{ShipCollector}",
 								"http://shipcollector.herokuapp.com/",
 								"Created using Python/Django and based on The Expanse series, halfway between sci-fi harbormaster monitoring software and narrative tracking for fans."
 						],
 						[
 								"Into Infinity",
-								"media/img/IntoInfinity.png",
+								"{IntoInfinity}",
 								"http://intoinfinity.herokuapp.com/",
 								"Also built with Python/Django as a mob-coding project, this space-exploration and teaching app is sized to the solar system, but scalable beyond, and tracks missions and objects in space"
 						],
 						[
 								"Give Your All",
-								"media/img/GiveYourAll.png",
+								"{GiveYourAll}",
 								"http://giveyourall.herokuapp.com/",
 								"This app searches an API for charity data and totals up orders for donation amounts; such a design could conceivably handle/anonymize donations through Stripe or similar software"
 						]

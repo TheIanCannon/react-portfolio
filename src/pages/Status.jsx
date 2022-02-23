@@ -1,5 +1,4 @@
-import "App" from '../App.css';
-import "Navbar" from '../components/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 export default function (){
 

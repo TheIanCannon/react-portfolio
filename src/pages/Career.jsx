@@ -1,5 +1,4 @@
-import "App" from '../App.css';
-import "Navbar" from '../components/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 export default function (){
 
@@ -8,7 +7,7 @@ export default function (){
             <Navbar/>
 												<div id="Career" class="tabContent">
 																<h3>Career</h3>
-																				<p class="myTraining">My training in full-stack software engineering with General Assembly's immersive program has given me familiarity with a range of coding and software development technologies.<br>
+																				<p class="myTraining">My training in full-stack software engineering with General Assembly's immersive program has given me familiarity with a range of coding and software development technologies.<br/>
 																								<p><b>Languages:</b> HTML, CSS, Javascript, Python, SQL</p>
 																								<p><b>Frameworks:</b> Django, Mongoose</p>
 																								<p><b>Libraries:</b> MongoDB, React, AWS</p>

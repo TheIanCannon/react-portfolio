@@ -1,20 +1,28 @@
-import "App" from '../App.css';
-import "Navbar" from '../components/Navbar.jsx';
-import "media" from '../media';
+import Navbar from '../components/Navbar.jsx';
+import bunker from '../media/av/bunker.mp4';
+import balance from '../media/av/balance.mp4';
+import worms from '../media/av/worms.mp4';
+import tightrope from '../media/av/tightrope.mp4';
+import sardines from '../media/av/sardines.mp4';
+import tracheotomy from '../media/av/tracheotomy.mp4';
+import mountain from '../media/av/mountain.mp4';
+import bear from '../media/av/bear.mp4';
+import croc from '../media/av/croc.mp4';
+import tuna from '../media/tuna.mp4';
 
 export default function Voice(){
 
 				const voSamples = [
-								["media/av/bunker.mp4", "Stock a Bunker!"],
-								["media/av/balance.mp4", "Balance a Bike Wheel!"],
-								["media/av/worms.mp4", "Buzz Worms for Bait!"],
-								["media/av/tightrope.mp4", "Ride On a Tightrope!"],
-								["media/av/sardines.mp4", "Survive with Sardines!"],
-								["media/av/tracheotomy.mp4", "DIY Tracheotomy!"],
-								["media/av/mountain.mp4", "Scare Off a Mountain Lion!"],
-								["media/av/bear.mp4", "Survive a Bear Attack!"],
-								["media/av/croc.mp4", "What a Croc!"],
-								["media/av/tuna.mp4", "Gaff a Tuna!"]
+								["{bunker}", "Stock a Bunker!"],
+								["{balance}", "Balance a Bike Wheel!"],
+								["{worms}", "Buzz Worms for Bait!"],
+								["{tightrope}", "Ride On a Tightrope!"],
+								["{sardines}", "Survive with Sardines!"],
+								["{tracheotomy}", "DIY Tracheotomy!"],
+								["{mountain}", "Scare Off a Mountain Lion!"],
+								["{bear}", "Survive a Bear Attack!"],
+								["{croc}", "What a Croc!"],
+								["{tuna}", "Gaff a Tuna!"]
 				];
 				
 				let i = 0;
@@ -49,16 +57,17 @@ export default function Voice(){
 																<p>Production values were somewhere between "modest" and "DIY", but the marketing team managed to make it work, and it was a good way to demonstrate some range and show off a few titles I'd taken part in creating.</p>
 																<div id="voList">
 																				<div id="buttons-title">        
-																				<button class="arrow" id="previous" onclick="clickDown()">◄ Prev</button>
-																				<h4 id="vidTitle"></h4>
-																				<button class="arrow" id="next" onclick="clickUp()">Next ►</button>
-																</div>
+																								<button class="arrow" id="previous" onclick="clickDown()">◄ Prev</button>
+																								<h4 id="vidTitle"></h4>
+																								<button class="arrow" id="next" onclick="clickUp()">Next ►</button>
+																    </div>
 																<span id="vidPlay">
 																				<video id="voArray" src="" height="480" width="640" controls="controls">												
 																								Your browser does not support HTML video.
 																				</video>
 																</span>   
-												</div>
+												    </div>
+            </div>
         </>
 				)
 
