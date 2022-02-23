@@ -13,16 +13,16 @@ import tuna from '../media//av/tuna.mp4';
 export default function Voice(){
 
 				const voSamples = [
-								["{bunker}", "Stock a Bunker!"],
-								["{balance}", "Balance a Bike Wheel!"],
-								["{worms}", "Buzz Worms for Bait!"],
-								["{tightrope}", "Ride On a Tightrope!"],
-								["{sardines}", "Survive with Sardines!"],
-								["{tracheotomy}", "DIY Tracheotomy!"],
-								["{mountain}", "Scare Off a Mountain Lion!"],
-								["{bear}", "Survive a Bear Attack!"],
-								["{croc}", "What a Croc!"],
-								["{tuna}", "Gaff a Tuna!"]
+								[{bunker}, "Stock a Bunker!"],
+								[{balance}, "Balance a Bike Wheel!"],
+								[{worms}, "Buzz Worms for Bait!"],
+								[{tightrope}, "Ride On a Tightrope!"],
+								[{sardines}, "Survive with Sardines!"],
+								[{tracheotomy}, "DIY Tracheotomy!"],
+								[{mountain}, "Scare Off a Mountain Lion!"],
+								[{bear}, "Survive a Bear Attack!"],
+								[{croc}, "What a Croc!"],
+								[{tuna}, "Gaff a Tuna!"]
 				];
 				
 				let i = 0;
@@ -31,7 +31,8 @@ export default function Voice(){
 				let vidLink = document.getElementById("voArray");
 				vidLink.setAttribute("src", voSamples[i][0]);
 				
-				function clickDown() {
+				function clickDown(e) {
+        e.preventDefault();
 								i--;
 								if (i < 0) {
 										i = voSamples.length - 1;
@@ -39,7 +40,8 @@ export default function Voice(){
 								vidTitle.innerText = voSamples[i][1];
 								vidLink.setAttribute("src", voSamples[i][0]);
 				}
-				function clickUp() {
+				function clickUp(e) {
+        e.preventDefault();
 								i++;
 								if (i > voSamples.length - 1) {
 										i = 0;
@@ -57,9 +59,9 @@ export default function Voice(){
 																<p>Production values were somewhere between "modest" and "DIY", but the marketing team managed to make it work, and it was a good way to demonstrate some range and show off a few titles I'd taken part in creating.</p>
 																<div id="voList">
 																				<div id="buttons-title">        
-																								<button class="arrow" id="previous" onclick="clickDown()">◄ Prev</button>
-																								<h4 id="vidTitle"></h4>
-																								<button class="arrow" id="next" onclick="clickUp()">Next ►</button>
+																								<button class="arrow" id="previous" onclick={e => clickDown(e)}>◄ Prev</button>
+																								<p id="vidTitle"></p>
+																								<button class="arrow" id="next" onclick={e => clickUp(e)}>Next ►</button>
 																    </div>
 																<span id="vidPlay">
 																				<video id="voArray" src="" height="480" width="640" controls="controls">												
