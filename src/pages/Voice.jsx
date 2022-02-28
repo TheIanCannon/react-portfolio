@@ -53,15 +53,15 @@ export default function Voice(){
 				return(
         <>
             <Navbar/>
-												<div id="Voice" class="tabContent">
+												<div id="Voice" className="tabContent">
 																<h3>Voice</h3>
 																<p>Some years ago, at the suggestions of colleagues, I studied a few courses with <a href="http://www.voiceone.com">Voice One</a> and lent my vocal training and talents to a series of marketing promos for several of Weldon Owen's books.</p>
 																<p>Production values were somewhere between "modest" and "DIY", but the marketing team managed to make it work, and it was a good way to demonstrate some range and show off a few titles I'd taken part in creating.</p>
 																<div id="voList">
 																				<div id="buttons-title">        
-																								<button class="arrow" id="previous" onclick={e => clickDown(e)}>◄ Prev</button>
+																								<button className="arrow" id="previous" onclick={e => clickDown(e)}>◄ Prev</button>
 																								<p id="vidTitle"></p>
-																								<button class="arrow" id="next" onclick={e => clickUp(e)}>Next ►</button>
+																								<button className="arrow" id="next" onclick={e => clickUp(e)}>Next ►</button>
 																    </div>
 																<span id="vidPlay">
 																				<video id="voArray" src="" height="480" width="640" controls="controls">												

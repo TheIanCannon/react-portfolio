@@ -76,14 +76,14 @@ export default function Coding(){
     return(
         <>
             <Navbar/>
-												<div id="Coding" class="tabContent">
+												<div id="Coding" className="tabContent">
 																<h3>Coding</h3>
 																<p>Here are a sampling of the various types of projects I have developed, ranging from purely front-end to full MERN-stack.</p>
 																<div id="pList">
 																				<div id="buttons-title">        
-																								<button class="arrow" id="previous" onclick={ e => clickPrev(e)}>◄ Prev</button>
+																								<button className="arrow" id="previous" onclick={ e => clickPrev(e)}>◄ Prev</button>
 																								<p id="pTitle"></p>
-																								<button class="arrow" id="next" onclick={e => clickNext(e)}>Next ►</button>
+																								<button className="arrow" id="next" onclick={e => clickNext(e)}>Next ►</button>
 																				</div>
 																				<div id="pDetail">
 																								<a id="pLink" href="http://theiancannon.github.io/GA-Project1-SlotMachine/">

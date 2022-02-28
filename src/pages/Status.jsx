@@ -5,9 +5,9 @@ export default function Status(){
     return(
         <>
             <Navbar/>
-												<div id="Status" class="tabContent">
+												<div id="Status" className="tabContent">
 																<h3>Status</h3>
-																<ul class="buildPriorities">Current Portfolio Build Priorities:
+																<ul className="buildPriorities">Current Portfolio Build Priorities:
 																				<li>🗹 Improve responsive design for resizing and viewing</li>
 																				<li>🗹 Add further media and work-related links (ongoing)</li>
 																				<li>☐ Dark/Light mode switch</li>
@@ -15,7 +15,7 @@ export default function Status(){
 																				<li>☐ Tab and content custom design(?)</li>
 																				<li>☐ TBD</li>
 																</ul>      
-																<ul class="otherObjectives">Other Objectives:
+																<ul className="otherObjectives">Other Objectives:
 																				<li>🗹 Project polishing and redesigning (ongoing)</li>
 																				<li>🗹 Various other practice (ongoing)</li>
 																				<li>☐ DevOps</li>
