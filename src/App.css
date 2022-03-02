@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: "Helvetica", sans-serif;
-  background: black !important;
-  color: silver !important;
+  background: white !important;
+  color: black !important;
 }
 
 .tabs {
@@ -28,13 +28,13 @@ body {
 }
 
 .tabs button:hover {
-  background: silver;
-  color: black;
+  background: black;
+  color: white;
 }
 
 .tabs button.active {
-  background: black;
-  color: silver;
+  background: white;
+  color: black;
 }
 
 .tabContent {
@@ -67,12 +67,12 @@ body {
 .arrow{
   scale: 150%;
   border: none;
-  color: silver;
+  color: black;
   background: none;
 }
 
 #vidTitle{
-  color: silver;
+  color: black;
 }
 
 #GitHub{
