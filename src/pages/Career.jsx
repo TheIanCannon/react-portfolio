@@ -21,8 +21,7 @@ export default function Career(){
 																								<p className="TechSkills"><img className="techSkill" alt="" src={html48}/>&nbsp;<img className="techSkill" alt="" src={javascript48}/>&nbsp;<img className="techSkill" alt="" src={css48}/>&nbsp;<img className="techSkill" alt="" src={python48}/> <img className="techSkill" alt="" src={git48}/>&nbsp;</p>
 																								<p className="TechSkills"><img className="techSkill" alt="" src={django48}/>&nbsp;<img className="techSkill" alt="" src={mongodb48}/>&nbsp;<img className="techSkill" alt="" src={react48}/>&nbsp;<img className="techSkill" alt="" src={aws48}/> <img className="techSkill" alt="" src={node48}/>&nbsp;</p>																								
 																				</p>
-																    <p className="professionalWriter">As a professional writer and editor, I have had the honor of working with titles licensed from companies including Disney/Marvel, HBO, ViacomCBS, Ubisoft, and many more.
-																    
+																    <p className="professionalWriter">As a professional writer, editor, and project manager, I have worked in publishing for more than a decade, handling a vast range of titles, including several licensed from companies including Disney/Marvel, HBO, ViacomCBS, Ubisoft, and many more.																    
 																    </p>
 																    <p>
 																    <a href="mailto: ian.cannon@protonmail.com">Resume</a>&nbsp;available upon request,	or visit my <a href="https://www.linkedin.com/in/theiancannon/">LinkedIn</a> page for further details.</p>

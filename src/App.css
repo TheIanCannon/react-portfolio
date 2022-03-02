@@ -9,34 +9,6 @@ body {
   color: black !important;
 }
 
-.tabs {
-  float: left;
-  width: 7.5%;
-  position: fixed;
-}
-
-.tabs button {  
-  width: 100%;
-  height: 14.285714vh;
-  display: block;
-  padding: 2.5%;
-  font-size: 100%;
-  border: none;
-  outline: none;
-  text-align: center;
-  cursor: pointer;
-}
-
-.tabs button:hover {
-  background: black;
-  color: white;
-}
-
-.tabs button.active {
-  background: white;
-  color: black;
-}
-
 .tabContent {
 		position: absolute;
 		float: right;
