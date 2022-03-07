@@ -1,3 +1,6 @@
+import pm from '../media/img/pm.png';
+import github from '../media/img/github.png';
+import linkedin from '../media/img/linkedin.png';
 import Navbar from '../components/Navbar.jsx';
 
 export default function Contact(){
@@ -10,7 +13,7 @@ export default function Contact(){
 																<p>Questions?</p>
 																<p>Comments?</p>
 																<p>Reach out to me!</p>
-																<a href="https://www.linkedin.com/in/theiancannon/"><img alt="LinkedIn" className="Icon" id="LinkedIn" src="https://i.imgur.com/wgXOLzq.png" /></a><a href="https://github.com/TheIanCannon/"><img alt="GitHub" className="Icon" id="GitHub" src="https://i.imgur.com/EYyBkA4.png?1" /></a><a href="mailto: ian.cannon@protonmail.com"><img alt="ProtonMail" className="Icon" id="ProtonMail" src="https://i.imgur.com/0ILiNSL.png?1" /></a>
+																<a href="https://www.linkedin.com/in/theiancannon/"><img alt="LinkedIn" className="Icon" id="LinkedIn" src={linkedin} /></a><a href="https://github.com/TheIanCannon/"><img alt="GitHub" className="Icon" id="GitHub" src={github} /></a><a href="mailto: ian.cannon@protonmail.com"><img alt="ProtonMail" className="Icon" id="ProtonMail" src={pm} /></a>
 																<footer id="copyright">
 																				<h6>
 																								Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> (The) Ian Cannon. All Rights Reserved.
