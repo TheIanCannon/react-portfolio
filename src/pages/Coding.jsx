@@ -7,7 +7,7 @@ import OneArmedBandit from '../media/img/OneArmedBandit.png';
 import Palanthas from '../media/img/Palanthas.png';
 import IntoInfinity from '../media/img/IntoInfinity.png';
 import ShipCollector from '../media/img/ShipCollector.png';
-import MoneyPal from '../media/image/MoneyPal.png';
+import MoneyPal from '../media/img/MoneyPal.png';
 
 export default function Coding(){
 
