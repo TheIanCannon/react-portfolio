@@ -7,6 +7,7 @@ import OneArmedBandit from '../media/img/OneArmedBandit.png';
 import Palanthas from '../media/img/Palanthas.png';
 import IntoInfinity from '../media/img/IntoInfinity.png';
 import ShipCollector from '../media/img/ShipCollector.png';
+import MoneyPal from '../media/image/MoneyPal.png';
 
 export default function Coding(){
 
@@ -40,6 +41,12 @@ export default function Coding(){
 								GiveYourAll,
 								"http://giveyourall.herokuapp.com/",
 								"This app searches an API for charity data and totals up orders for donation amounts; such a design could conceivably handle/anonymize donations through Stripe or similar software"
+						],
+						[
+								"Money Pal",
+								MoneyPal,
+								"https://pensive-goodall-ea0925.netlify.app/",
+								"Developed in a February 2022 Hackathon with a team of UX/UI designers and fellow engineers, this simple financial analysis tool offers advice on a user's finances—and preserves anonymity by front-end-only design"
 						]
 				];
 
@@ -50,12 +57,12 @@ export default function Coding(){
 																<h3>Coding</h3>
 																<p>Here are a sampling of the various types of projects I have developed, ranging from purely front-end to full MERN-stack.</p>
 																<Carousel>
-																		      <p className="codeProject">{projectList[0][0]}{projectList[1][0]}<a href={projectList[2][0]}>{projectList[3][0]}</a></p>
-																		      <p className="codeProject">{projectList[0][1]}{projectList[1][1]}<a href={projectList[2][1]}>{projectList[3][1]}</a></p>
-																		      <p className="codeProject">{projectList[0][2]}{projectList[1][2]}<a href={projectList[2][2]}>{projectList[3][2]}</a></p>
-																		      <p className="codeProject">{projectList[0][3]}{projectList[1][3]}<a href={projectList[2][3]}>{projectList[3][3]}</a></p>
-																		      <p className="codeProject">{projectList[0][4]}{projectList[1][4]}<a href={projectList[2][4]}>{projectList[3][4]}</a></p>
-																		      <p className="codeProject">{projectList[0][5]}{projectList[1][5]}<a href={projectList[2][5]}>{projectList[3][5]}</a></p>
+																		      <p className="codeProject">{projectList[0][0]}<img alt="" src={projectList[0][1]}/><a href={projectList[0][2]}>{projectList[0][3]}</a></p>
+																		      <p className="codeProject">{projectList[1][0]}<img alt="" src={projectList[1][1]}/><a href={projectList[1][2]}>{projectList[1][3]}</a></p>
+																		      <p className="codeProject">{projectList[2][0]}<img alt="" src={projectList[2][1]}/><a href={projectList[2][2]}>{projectList[2][3]}</a></p>
+																		      <p className="codeProject">{projectList[3][0]}<img alt="" src={projectList[3][1]}/><a href={projectList[3][2]}>{projectList[3][3]}</a></p>
+																		      <p className="codeProject">{projectList[4][0]}<img alt="" src={projectList[4][1]}/><a href={projectList[4][2]}>{projectList[4][3]}</a></p>
+																		      <p className="codeProject">{projectList[5][0]}<img alt="" src={projectList[5][1]}/><a href={projectList[5][2]}>{projectList[5][3]}</a></p>
                 </Carousel>
 												</div>    
          </>
