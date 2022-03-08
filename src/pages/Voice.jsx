@@ -1,31 +1,7 @@
 import Navbar from '../components/Navbar.jsx';
 import VideoCarousel from '../components/VideoCarousel.jsx';
 
-import bunker from '../media/av/bunker.mp4';
-import balance from '../media/av/balance.mp4';
-import worms from '../media/av/worms.mp4';
-import tightrope from '../media/av/tightrope.mp4';
-import sardines from '../media/av/sardines.mp4';
-import tracheotomy from '../media/av/tracheotomy.mp4';
-import mountain from '../media/av/mountain.mp4';
-import bear from '../media/av/bear.mp4';
-import croc from '../media/av/croc.mp4';
-import tuna from '../media/av/tuna.mp4';
-
 export default function Voice(){
-
-				const voSamples = [
-								[bunker, "Stock a Bunker!"],
-								[balance, "Balance a Bike Wheel!"],
-								[worms, "Buzz Worms for Bait!"],
-								[tightrope, "Ride On a Tightrope!"],
-								[sardines, "Survive with Sardines!"],
-								[tracheotomy, "DIY Tracheotomy!"],
-								[mountain, "Scare Off a Mountain Lion!"],
-								[bear, "Survive a Bear Attack!"],
-								[croc, "What a Croc!"],
-								[tuna, "Gaff a Tuna!"],
-				];
 						
 				return(
         <>
