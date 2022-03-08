@@ -1,0 +1,17 @@
+.carousel{
+    width: 640px;
+    height: 360px;
+    margin: auto;
+}
+
+.carousel-control-prev .carousel-control-next{
+    height: 320px;
+}
+
+.carousel .carousel-control-prev-icon .carousel-control-next-icon{
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev-icon .carousel-control-next-icon{
+    visibility: visible;
+}
