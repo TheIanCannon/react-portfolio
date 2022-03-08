@@ -13,16 +13,6 @@ export default function Voice(){
                 <p>In addition, this set of voiceovers not only gave me experience working directly with sales and marketing, but allowed me to create the carousel that displays them here in ReactJS!</p>
 																<div id="voList">
 																		  <VideoCarousel/>
-                        {/* <p className="voSample"><VideoPlayer src={voSamples[0][0]}/>{voSamples[0][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[1][0]}/>{voSamples[1][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[2][0]}/>{voSamples[2][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[3][0]}/>{voSamples[3][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[4][0]}/>{voSamples[4][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[5][0]}/>{voSamples[5][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[6][0]}/>{voSamples[6][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[7][0]}/>{voSamples[7][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[8][0]}/>{voSamples[8][1]}</p>
-                        <p className="voSample"><VideoPlayer src={voSamples[9][0]}/>{voSamples[9][1]}</p>  */}
 												    </div>
             </div>
         </>
