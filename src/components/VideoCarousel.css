@@ -30,3 +30,7 @@
 .carousel:hover .carousel-control-next-icon{
     visibility: visible;
 }
+
+.voInfo {
+justify-content: center;
+}

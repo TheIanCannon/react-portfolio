@@ -3,14 +3,18 @@
     justify-content: center;
 }
 
+.carousel-inner img {
+  margin: auto;
+}
+
 .carousel{
     width: 500px;
-    height: 550px;
-    margin: 0 auto;
+    height: 500px;
 }
 
 .carousel-caption {
     position: bottom;
+    scale: 200%;
 }
 
 .carousel-control-prev {
@@ -23,24 +27,16 @@
 
 .carousel .carousel-control-prev-icon {
     visibility: hidden;
+    text-shadow:
 }
 .carousel .carousel-control-next-icon {
-    visibility: hidden;
+    visibility: hidden;    
 }
 
 .carousel:hover .carousel-control-prev-icon{
     visibility: visible;
-    text-shadow:
-		      -1px -1px 0 #000,
-		      1px -1px 0 #000,
-		      -1px 1px 0 #000,
-		      1px 1px 0 #000;
+    
 }
 .carousel:hover .carousel-control-next-icon{
     visibility: visible;
-        text-shadow:
-		      -1px -1px 0 #000,
-		      1px -1px 0 #000,
-		      -1px 1px 0 #000,
-		      1px 1px 0 #000;
 }
