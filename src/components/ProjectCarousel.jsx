@@ -15,39 +15,45 @@ export default function ProjectCarousel(){
 				const projectList = [
 								{
 										id: 0,
+          title: "One-Armed Bandit",
 										src: OneArmedBandit,
 										url: "http://theiancannon.github.io/GA-Project1-SlotMachine/",
-										desc: "One-Armed Bandit is an HTML/CSS/JS-based slot machine with animated *.gif reels and contextual sound effects."
+										desc: "An HTML/CSS/JS-based slot machine with animated *.gif reels and contextual sound effects."
 								},
 								{
 										id: 1,
+          title: "Palanthas",
 										src: Palanthas,
 										url: "http://project-palanthas.herokuapp.com/",
-										desc: "Palanthas was developed in MongoDB/Express/Node for collecting, reviewing, and rating books."
+										desc: "Developed in MongoDB/Express/Node for collecting, reviewing, and rating books."
 								},
 								{
 										id: 2,
+          title: "Ship Collector",
 										src: ShipCollector,
 										url: "http://shipcollector.herokuapp.com/",
-										desc: "ShipCollector, created using Python/Django as a fan project based on The Expanse sci-fi series, is halfway between sci-fi harbormaster monitoring software and narrative tracking."
+										desc: "Created using Python/Django as a fan project based on The Expanse sci-fi series, this is halfway between sci-fi harbormaster monitoring software and a narrative tracking tool."
 								},
 								{
 										id: 3,
+          title: "Into Infinity!",
 										src: IntoInfinity,
 										url: "http://intoinfinity.herokuapp.com/",
-										desc: "Into Infinity was also built with Python/Django as a mob-coding project. This space-exploration and teaching app is sized to the solar system, but scalable beyond, and tracks missions and objects in space."
+										desc: "This space-exploration and teaching app was built with Python/Django. Its categories are sized to the Solar System, but scalable beyond, and tracks missions and objects in space."
 								},
 								{
 										id: 4,
+          title: "Give Your All",
 										src: GiveYourAll,
 										url: "http://giveyourall.herokuapp.com/",
-										desc: "Developed out of a personal interest in charity, Give Your All searches an API for charity data and totals up orders for donation amounts; such a design could conceivably handle/anonymize donations through Stripe or similar software"
+										desc: "Developed out of a personal interest in charity, this app searches an API for charity data and totals up orders for donation amounts; such a design could conceivably handle/anonymize donations through Stripe or similar software"
 								},
 								{
 										id: 5,
+          title: "Money Pal",
 										src: MoneyPal,
 										url: "https://pensive-goodall-ea0925.netlify.app/",
-										desc: "Developed in a February 2022 Hackathon with a team of UX/UI designers and fellow engineers, Money Pal offers advice on a user's finances—and preserves anonymity by way of a front-end-only design."
+										desc: "Coded in a February 2022 Hackathon with a team of UX/UI designers and fellow engineers, Money Pal offers advice on a user's finances—and preserves anonymity by way of a front-end-only design."
 								}
 						];
 
@@ -56,10 +62,9 @@ export default function ProjectCarousel(){
 												{projectList.map((p) => {
 																return (
 																				<Carousel.Item key={p.id}>
+                        <h6 className="pTitle">{p.title}</h6>
 																							 <img className="projectImg" src={p.src} alt="{p.src}"/>
-																								<Carousel.Caption>
-																												<h6><a href={p.url}>{p.desc}</a></h6>                            
-																								</Carousel.Caption>
+                        <h6 className="urlDesc"><a href={p.url}>{p.desc}</a></h6>  																								
 																				</Carousel.Item>
 																)
 												})}
