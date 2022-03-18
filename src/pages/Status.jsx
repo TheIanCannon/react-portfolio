@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.jsx';
+import Copyright from '../components/Copyright.jsx';
 
 export default function Status(){
 
@@ -23,7 +24,10 @@ export default function Status(){
 																				<li>☐ Cloud Development/Azure</li>
 																</ul>
 																<small>(n.b. This page will be under construction and revision as I continue to refine its design. Watch for more changes along the way!)</small>
-												</div>    
+												</div>
+            <footer id="copyright">
+												    <Copyright/>
+												</footer>     
         </>
     )
 

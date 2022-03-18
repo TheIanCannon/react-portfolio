@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar.jsx';
 import VideoCarousel from '../components/VideoCarousel.jsx';
+import Copyright from '../components/Copyright.jsx';
 
 export default function Voice(){
 						
@@ -15,6 +16,9 @@ export default function Voice(){
 																		  <VideoCarousel/>
 												    </div>
             </div>
+            <footer id="copyright">
+												    <Copyright/>
+												</footer> 
         </>
 				)
 

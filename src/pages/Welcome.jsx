@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.jsx';
+import Copyright from '../components/Copyright.jsx';
 
 export default function Welcome(){
 
@@ -11,6 +12,9 @@ export default function Welcome(){
 																<p>Learning (and creating!) new things both inside and outside my career is a major passion of mine, as is sharing knowledge.</p>
 																<p>The things that drive me most are Curiosity, Creativity, and Knowledge—and I enjoy inspiring others toward the same ideals.</p>
 												</div>
+            <footer id="copyright">
+												    <Copyright/>
+												</footer> 
         </>
     )
 

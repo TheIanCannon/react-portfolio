@@ -1,4 +1,6 @@
 import Navbar from '../components/Navbar.jsx';
+import Copyright from '../components/Copyright.jsx';
+
 import aws48 from '../media/img/aws48.png';
 import css48 from '../media/img/css48.png';
 import django48 from '../media/img/django48.png';
@@ -26,6 +28,9 @@ export default function Career(){
 																    <p>
 																    <a href="mailto: ian.cannon@protonmail.com">Resume</a>&nbsp;available upon request,	or visit my <a href="https://www.linkedin.com/in/theiancannon/">LinkedIn</a> page for further details.</p>
 												</div> 
+            <footer id="copyright">
+												    <Copyright/>
+												</footer>
         </>   
     )
 
