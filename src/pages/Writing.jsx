@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.jsx';
+import Copyright from '../components/Copyright.jsx';
 
 export default function Writing(){
 
@@ -16,5 +17,5 @@ export default function Writing(){
 												</footer>        
         </>
     )
-
+ 
 }

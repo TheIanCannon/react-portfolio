@@ -86,13 +86,12 @@ export default function VideoCarousel() {
 												{voSamples.map((vo) => {
 																return (
 																				<Carousel.Item key={vo.id}>
+                    				<h6 className="voInfo">{vo.title}</h6>   																								
 																								<ReactPlayer
 																												url={vo.src}
 																												controls={true}
 																												playing={false}
 																								/>
-                    				<h6 className="voInfo">{vo.title}</h6>
-																												<h6 className="voInfo">{vo.credit}</h6>    																								
 																				</Carousel.Item>
 																)
 												})}
