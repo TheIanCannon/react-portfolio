@@ -7,19 +7,13 @@
   margin: auto;
 }
 
-.pTitle, .pDesc{
-  display: flex;
-  justify-content: center;
+.carousel{
+    width: 500px;
+    height: 500px;
 }
 
-.projectImg{
-  display: flex;
-  justify-content: center;  
-}
-
-.carousel-indicators {
-  position: absolute;
-  top: 0;
+.carousel-indicators{
+   visibility: hidden;
 }
 
 .carousel .carousel-control-prev-icon {
@@ -29,8 +23,46 @@
     visibility: hidden;    
 }
 
-.carousel:hover .carousel-control-prev-icon{
-    visibility: visible;
+.carousel:hover .carousel-control-prev-icon {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 1);
+    background-size: 100%, 100%;
+    border-radius: 50%;    
+}
+.carousel:hover .carousel-control-next-icon {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 1);
+    background-size: 100%, 100%;
+    border-radius: 50%;  
+}
+
+/* .carousel-inner img {
+  margin: 0 auto;
+}
+
+.ProjectCarousel{
+  height: 500px;
+  width: 500px;
+}
+
+
+.pTitle, .pDesc{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .carousel-indicators {
+  visibility: hidden;
+}
+
+.carousel .carousel-control-prev-icon{
+    position: fixed;
     height: 50px;
     width: 50px;
     outline: black;
@@ -39,12 +71,12 @@
     border-radius: 50%;    
 }
     
-.carousel:hover .carousel-control-next-icon{
-    visibility: visible;
+.carousel .carousel-control-next-icon{
+    position: fixed;
     height: 50px;
     width: 50px;
     outline: black;
     background-color: rgba(0, 0, 0, 0.3);
     background-size: 100%, 100%;
     border-radius: 50%;    
-}
+} */

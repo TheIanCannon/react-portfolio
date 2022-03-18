@@ -9,10 +9,10 @@ export default function Status(){
 												<div id="Status" className="tabContent">
 																<h3>Status</h3>
 																<ul className="buildPriorities">Current Portfolio Build Priorities:
-																				<li>🗹 Improve responsive design for resizing and viewing</li>
+																				<li>🗹 React-based rebuild</li>
+																				<li>☐ Improve responsive design for resizing and viewing similar to prior HTML-based portfolio</li>
 																				<li>🗹 Add further media and work-related links (ongoing)</li>
 																				<li>☐ Dark/Light mode switch</li>
-																				<li>☐ React-based rebuild</li>
 																				<li>☐ Tab and content custom design(?)</li>
 																				<li>☐ TBD</li>
 																</ul>      

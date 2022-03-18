@@ -1,60 +1,37 @@
-.ProjectCarousel{
-    display: grid;
-    justify-content: center;
+.carousel{
+    width: 660px;
+    height: 385px;
+    margin: 0 auto;
 }
 
-.carousel-inner img {
-  margin: auto;
+.carousel-caption {
+    position: fixed top;
+    scale: 50%;
 }
 
-.pTitle, .pDesc{
-  display: flex;
-  justify-content: center;
+.carousel-control-prev {
+    height: 400px;
 }
 
-.projectImg{
-  display: flex;
-  justify-content: center;  
-}
-
-.VideoCarousel{
-  display: flex;
-  justify-content: center;
-}
-
-.voInfo{
-  display: flex;
-  justify-content: center;
-}
-
-.carousel-indicators {
-  position: absolute;
-  top: 0;
+.carousel-control-next {
+    height: 400px;
 }
 
 .carousel .carousel-control-prev-icon {
-    visibility: hidden;    
+    visibility: hidden;
 }
 .carousel .carousel-control-next-icon {
-    visibility: hidden;    
+    visibility: hidden;
 }
 
 .carousel:hover .carousel-control-prev-icon{
     visibility: visible;
-    height: 50px;
-    width: 50px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%, 100%;
-    border-radius: 50%;    
 }
-    
 .carousel:hover .carousel-control-next-icon{
     visibility: visible;
-    height: 50px;
-    width: 50px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%, 100%;
-    border-radius: 50%;    
+}
+
+.voInfo {
+    display: flex;
+    justify-content: center;
 }
